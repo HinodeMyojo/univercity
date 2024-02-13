@@ -1,8 +1,6 @@
 from functools import reduce
 from math import sqrt
-# opt.6: 7YES, 10YES, 1YES, 11~YES, 12
-# opt.5: 6, 7YES, 2, 11, 12
-
+# opt.6: 7YES, 10YES, 1YES, 11~YES, 12YES
 
 # 1
 def quadratic():
@@ -49,7 +47,7 @@ def rules():
             f'По правилу сложения чисел: {sum(odd)}')
 
 
-# 11
+# 11?? Не уверен.
 def power_voltage():
     U1 = 400
     S1 = complex(1000, 500)
